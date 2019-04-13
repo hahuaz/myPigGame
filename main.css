@@ -1,0 +1,157 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.wrapper{
+    
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    height:720px;
+    text-align: center;
+    background-color:white;
+    
+}
+.player-0-panel, .player-1-panel{
+    position: absolute;
+    top:20%;
+    font-size: 36px;
+}
+.player-name{
+    color:red;
+    margin-bottom: 20px;
+    padding:15px;
+    border: none;
+    
+    border-radius: 50%;
+    background-color: aqua;
+    box-shadow: 5px 5px  30px aqua;
+}
+.player-0-panel{
+    left:150px;
+}
+.player-1-panel{
+    right:150px;
+}
+.player-current-label{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 50%;
+    padding:10px;
+    background-color: aqua;
+    box-shadow: 5px 5px  30px aqua;
+}
+.wrapper img{
+    width:150px;
+    position: absolute;
+    left:43%;
+    top:27%;
+   
+}
+#score-0::after, #score-1::after{
+    content:"";
+    background: black;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+
+}
+.btn-new{
+    position: absolute;
+    top:15%;
+    left:42%;
+    margin:20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.ion-ios-plus-outline{
+    margin-right:10px;
+    color:red;
+    font-size: 30px;
+}
+.btn-roll{
+    position: absolute;
+    top:45%;
+    left:42%;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.ion-ios-loop{
+    margin-right:10px;
+    color:red;
+    font-size: 30px;
+}
+.btn-hold{
+    position: absolute;
+    top:55%;
+    left:45%;
+    margin-top:30px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.ion-ios-download-outline{
+    margin-right:10px;
+    color:red;
+    font-size: 30px;
+}
+.btn-roll:hover, .btn-hold:hover, .btn-new:hover{
+    background: rgb(61, 55, 55);
+    color:white;
+    box-shadow: 15px 15px 30px grey;
+    cursor: pointer;
+}
+.player-current-box{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 23%
+
+}
+.active{
+    background-color: grey;
+    padding: 70px;
+    border-radius: 13%;
+    font-weight: bold;
+}
+.info{
+    text-align: center;
+}
+.info h1::after{
+    content:"";
+    background-color: black;
+    width:220px;
+    height:4px;
+    display: block;
+    margin:auto;
+}
+.left-pic{
+    width:100px;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+}
+.left-pic2 {
+    width:100px;
+    position: absolute;
+    top: 392px;
+    overflow: hidden;
+}
+.right-pic{
+    width:100px;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+    right:0px;
+}
+.right-pic2 {
+    width:100px;
+    right:0;
+    position: absolute;
+    top: 392px;
+    overflow: hidden;
+}
